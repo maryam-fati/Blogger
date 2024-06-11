@@ -3,13 +3,13 @@ const mongoose = require('mongoose');
 const blogschema = new mongoose.Schema({
     Blog: {
         type: String,
-        required: true  // Fixed typo: 'require' to 'required'
+        required: true
     },
     Paragraph: {
         type: String,
         required: true
     },
-    Image: {  // Fixed typo: 'image' to 'Image' to match frontend field
+    Image: { 
         type: String,
         required: true
     }
